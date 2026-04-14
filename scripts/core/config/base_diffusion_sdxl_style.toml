@@ -54,7 +54,7 @@ lr_scheduler = "cosine"
 lr_warmup_steps = 25
 
 noise_offset_type = "Original"
-noise_offset = 0.0357
+noise_offset = 0.04
 
 network_alpha = -1
 network_dim = -1
@@ -64,6 +64,6 @@ network_dropout = 0
 caption_dropout_rate = 0
 clip_skip = 1
 max_timestep = 1000
-min_snr_gamma = 8
+min_snr_gamma = 10
 scale_weight_norms = 5
 seed = 2951032222

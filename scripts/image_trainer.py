@@ -381,7 +381,7 @@ def hash_model(model: str) -> str:
     return hashed 
 
 async def main():
-    print("---STARTING IMAGE TRAINING SCRIPT---", flush=True)
+    print("---STARTING IMAGE TRAINING SCRIPT--- Made-with: ICE", flush=True)
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Image Model Training Script")
     parser.add_argument("--task-id", required=True, help="Task ID")
